@@ -1,0 +1,22 @@
+.empty-state {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.checklist-icon {
+    margin-bottom: 20px;
+}
+
+.checklist-icon_title, .empty-state_description {
+    margin-bottom: 20px;
+}
+
+.todo-list:empty {
+    display: none;
+}
+
+.todo-list:empty + .empty-state {
+    display: flex;
+}
